@@ -1,0 +1,26 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+
+}
+.heading{
+    font-size: 30px;
+    border: 5px double green;
+    border-radius: 20px;
+}
+.btn-success{
+    font-size: 25px;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    margin-top: 60px;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 50px yellow}
+    to{box-shadow: 5px 5px 50px blue;}
+}
